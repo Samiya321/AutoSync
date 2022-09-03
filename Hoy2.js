@@ -1,0 +1,68 @@
+var obj = JSON.parse($response.body);
+
+obj = 
+
+{
+  "id": "276373",
+  "UID": "276373",
+  "UIDSignature": "jSzbm4\/kVrE\/tdCdmX4fFmDHD3Y=",
+  "signatureTimestamp": "1662188550",
+  "id_usuario": "fedemf",
+  "email_usuario": "el_zari@hotmail.com",
+  "password": null,
+  "pais": "",
+  "cp": "06005",
+  "nombre": "Zari",
+  "bio": null,
+  "avatar": "https:\/\/cdns.gigya.com\/photos\/6288771\/f78210cb296f46c29c87e4d540d64413\/orig?ts=635080497910263296",
+  "fecha_nacimiento": "",
+  "sexo": "m",
+  "webs": null,
+  "email_alternativo": null,
+  "tipo_usuario": null,
+  "visibilidad_perfil": null,
+  "id_confirmacion": null,
+  "alta_usuario": 1372449389000,
+  "status_usuario": true,
+  "status_timestamp": null,
+  "ciudad": "",
+  "confirmacion_status": "validado",
+  "apellidos": "",
+  "provincia": "",
+  "estudios": "",
+  "ocupacion": null,
+  "telefono": null,
+  "publi": false,
+  "hash_facebook": null,
+  "twitter_token1": null,
+  "twitter_token2": null,
+  "compartir_actividad": false,
+  "mostrar_nick": "fedemf",
+  "notificaciones_mail": null,
+  "timestamp_validacion": null,
+  "email_alternativo_validado": null,
+  "email_notificaciones": "el_zari@hotmail.com",
+  "intereses": [],
+  "customerService": [{
+    "createdDate": "2017-11-06T11:25:24.000Z",
+    "serviceReference": "",
+    "firstService": true,
+    "siteID": "0900",
+    "ID": "100",
+    "device": "Sin especificar",
+    "platform": "Web"
+  }, {
+    "createdDate": "2017-11-16T21:46:46.000Z",
+    "serviceReference": "badajoz",
+    "firstService": false,
+    "siteID": "0900",
+    "ID": "110",
+    "device": "Ordenador",
+    "platform": "Web"
+  }],
+  "userType": "suscriptor",
+  "startDate": "1609369200",
+  "endDate": "1672441199",
+  "userTypeGroup": "suscriptor"
+}
+$done({body: JSON.stringify(obj)});
