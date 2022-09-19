@@ -1,0 +1,2 @@
+
+{"timestamp":1663552958,"component":"vip","result":1009,"message":"Authorization failed","uri":"/api/v3/vip/vip_card","response":null}
