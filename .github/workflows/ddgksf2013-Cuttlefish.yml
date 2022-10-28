@@ -22,7 +22,7 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/ddgksf2013/Cuttlefish.git"
+          source_repo: "https://gitlab.com/ddgksf2013/Cuttlefish.git"
           source_branch: "master"
           destination_branch: "ddgksf2013-Cuttlefish"
           github_token: ${{ secrets.PAT }}
